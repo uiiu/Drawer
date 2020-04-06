@@ -80,6 +80,15 @@ body {
   overflow-y: auto;
 }
 
+.pos2 {
+  position: relative;
+  top: -40px;
+}
+
+.pos3 {
+  position: relative;
+  top: -80px;
+}
 
 .draw_box02 {
   position: relative;
@@ -89,6 +98,7 @@ body {
   border-bottom: 1px solid #eee;
   padding: 0 10px;
   box-sizing: border-box;
+
 }
 
 .draw_box02 .toggle {
