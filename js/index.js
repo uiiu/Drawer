@@ -36,12 +36,12 @@ $(document).ready(function () {
   $(".draw_box02").click(function () {
 
 
-    if ($(this).siblings().hasClass('two')) {
-      $(this).parent().toggleClass("pos2");
-    }
-    if ($(this).siblings().hasClass('three')) {
-      $(this).parent().toggleClass("pos3");
-    }
+    // if ($(this).siblings().hasClass('two')) {
+    //   $(this).parent().toggleClass("pos2");
+    // }
+    // if ($(this).siblings().hasClass('three')) {
+    //   $(this).parent().toggleClass("pos3");
+    // }
 
     if ($(this).next().is(":hidden")) {
       close();
